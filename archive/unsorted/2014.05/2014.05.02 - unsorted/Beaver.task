@@ -1,0 +1,52 @@
+6 Beaver
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+64 Go_straight_along_this_street
+5
+str
+long
+tree
+biginteger
+ellipse
+-1
+1
+1
+31 IhaveNoIdea
+9
+I
+h
+a
+v
+e
+N
+o
+I
+d
+-1
+1
+2
+22 unagioisii
+2
+ioi
+unagi
+-1
+1
+14 src/codeforces
+16 -Xmx256m -Xss64m
+4 Main
+17 codeforces.Beaver
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.02
+0 
+1
+22 library.io.InputReader
+23 library.io.OutputWriter
+0
+0

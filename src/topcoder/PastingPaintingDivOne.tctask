@@ -1,0 +1,91 @@
+21 PastingPaintingDivOne
+11 countColors
+6 long[]
+2
+18 java.lang.String[]
+9 clipboard
+3 int
+1 T
+6
+0
+2
+String[] 3
+3 ..G
+3 R..
+3 BG.
+int 3
+long[] 3
+3
+4
+3
+1
+1
+2
+String[] 4
+4 R...
+4 ....
+4 ....
+4 ...R
+int 2
+long[] 3
+4
+0
+0
+1
+2
+2
+String[] 1
+3 RGB
+int 100000
+long[] 3
+100000
+100000
+100000
+1
+3
+2
+String[] 1
+1 .
+int 1000000000
+long[] 3
+0
+0
+0
+1
+4
+2
+String[] 2
+3 RB.
+3 .G.
+int 100
+long[] 3
+100
+1
+100
+1
+5
+2
+String[] 11
+21 ..........G..........
+21 .........G.G.........
+21 ........G...G........
+21 .......G.....G.......
+21 ......G..B.B..G......
+21 .....G...B.B...G.....
+21 ....G...........G....
+21 ...G...R.....R...G...
+21 ..G.....RRRRRR....G..
+21 .G..........RR.....G.
+21 GGGGGGGGGGGGGGGGGGGGG
+int 1000000000
+long[] 3
+2000000018
+17000000048
+2000000005
+1
+10 2014.05.02
+17 TopCoder SRM #562
+0
+30 topcoder.PastingPaintingDivOne
+0
+3 64M

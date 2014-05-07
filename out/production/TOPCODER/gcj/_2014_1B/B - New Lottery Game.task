@@ -1,0 +1,35 @@
+20 B - New Lottery Game
+12 MULTI_NUMBER
+12 LOCAL_REGEXP
+22 B-(small|large).*[.]in
+6 CUSTOM
+5 b.out
+1
+0
+40 5
+3 4 2
+4 5 2
+7 8 5
+45 56 35
+103 143 88
+
+64 Case #1: 10
+Case #2: 16
+Case #3: 52
+Case #4: 2411
+Case #5: 14377
+1
+16 src/gcj/_2014_1B
+8 -Xmx512M
+4 Main
+18 gcj._2014_1B.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.03
+29 Google Code Jam Round 1B 2014
+1
+22 library.io.InputReader
+23 library.io.OutputWriter
+1
+0

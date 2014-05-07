@@ -1,0 +1,66 @@
+18 RectangleAndSquare
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+4
+0
+35 0 0
+10 11
+10 0
+0 11
+1 1
+2 2
+2 1
+1 2
+-1
+1
+1
+31 0 0
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+-1
+1
+2
+31 0 0
+4 4
+4 0
+0 4
+1 2
+2 3
+3 2
+2 1
+-1
+1
+3
+76 -1000 -736
+1200 408
+1728 12
+188 -1000
+1332 -516
+-736 -208
+452 -472
+804 -120
+
+-1
+1
+14 src/codeforces
+16 -Xmx256m -Xss64m
+4 Main
+29 codeforces.RectangleAndSquare
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.01
+0 
+1
+22 library.io.InputReader
+23 library.io.OutputWriter
+0
+0

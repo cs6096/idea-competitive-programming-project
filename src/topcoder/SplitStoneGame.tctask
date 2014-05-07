@@ -1,0 +1,98 @@
+14 SplitStoneGame
+9 winOrLose
+16 java.lang.String
+1
+5 int[]
+6 number
+5
+0
+1
+int[] 3
+1
+1
+1
+String
+4 LOSE
+1
+1
+1
+int[] 2
+2
+2
+String
+4 LOSE
+1
+2
+1
+int[] 3
+1
+1
+2
+String
+3 WIN
+1
+3
+1
+int[] 23
+1
+2
+3
+4
+3
+2
+2
+4
+3
+1
+4
+4
+1
+2
+4
+4
+1
+4
+3
+1
+4
+2
+1
+String
+3 WIN
+1
+4
+1
+int[] 24
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+1
+1
+1
+3
+1
+9
+1
+3
+1
+1
+1
+1
+1
+String
+4 LOSE
+1
+10 2014.05.05
+22 Single Round Match 619
+0
+23 topcoder.SplitStoneGame
+0
+4 256M

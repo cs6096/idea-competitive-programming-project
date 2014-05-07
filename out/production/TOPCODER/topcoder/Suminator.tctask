@@ -1,0 +1,89 @@
+9 Suminator
+11 findMissing
+3 int
+2
+5 int[]
+7 program
+3 int
+12 wantedResult
+6
+0
+2
+int[] 3
+7
+-1
+0
+int 10
+int 3
+1
+1
+2
+int[] 6
+100
+200
+300
+0
+100
+-1
+int 600
+int 0
+1
+2
+2
+int[] 8
+-1
+7
+3
+0
+1
+2
+0
+0
+int 13
+int 0
+1
+3
+2
+int[] 8
+-1
+8
+4
+0
+1
+2
+0
+0
+int 16
+int -1
+1
+4
+2
+int[] 9
+1000000000
+1000000000
+1000000000
+1000000000
+-1
+0
+0
+0
+0
+int 1000000000
+int -1
+1
+5
+2
+int[] 4
+7
+-1
+3
+0
+int 3
+int -1
+1
+10 2014.05.04
+17 TopCoder SRM #553
+0
+18 topcoder.Suminator
+0
+3 64M

@@ -1,0 +1,13 @@
+package %package%;
+import java.util.*;
+import java.math.*;
+public class %TaskClass% {
+    public %Signature% {
+        return %DefaultValue%;
+    }
+	public static void px(Object ... objects){
+		String temp = Arrays.deepToString(objects);
+		temp = temp.substring(1, temp.length() - 1);
+		System.out.println("DEBUG: " + temp);
+	}
+}

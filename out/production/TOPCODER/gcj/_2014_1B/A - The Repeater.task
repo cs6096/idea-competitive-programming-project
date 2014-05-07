@@ -1,0 +1,47 @@
+16 A - The Repeater
+12 MULTI_NUMBER
+12 LOCAL_REGEXP
+22 A-(small|large).*[.]in
+6 CUSTOM
+5 a.out
+1
+0
+66 5
+2
+mmaw
+maw
+2
+gcj
+cj
+3
+aaabbb
+ab
+aabb
+2
+abc
+abc
+3
+aabc
+abbc
+abcc
+
+62 Case #1: 1
+Case #2: Fegla Won
+Case #3: 4
+Case #4: 0
+Case #5: 3
+1
+16 src/gcj/_2014_1B
+8 -Xmx512M
+4 Main
+18 gcj._2014_1B.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.03
+29 Google Code Jam Round 1B 2014
+1
+22 library.io.InputReader
+23 library.io.OutputWriter
+1
+0
