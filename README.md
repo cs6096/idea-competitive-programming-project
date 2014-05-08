@@ -1,0 +1,1 @@
+This is my idea project for competitive programming. It includes my solutions for solved problems as well as my template library codes.

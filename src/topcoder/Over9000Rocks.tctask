@@ -1,0 +1,81 @@
+13 Over9000Rocks
+18 countPossibilities
+3 int
+2
+5 int[]
+10 lowerBound
+5 int[]
+10 upperBound
+5
+0
+2
+int[] 1
+9000
+int[] 1
+9001
+int 1
+1
+1
+2
+int[] 3
+9000
+1
+10
+int[] 3
+9000
+2
+20
+int 15
+1
+2
+2
+int[] 4
+1001
+2001
+3001
+3001
+int[] 4
+1003
+2003
+3003
+3003
+int 9
+1
+3
+2
+int[] 4
+9000
+90000
+1
+10
+int[] 4
+9000
+90000
+3
+15
+int 38
+1
+4
+2
+int[] 6
+1
+1
+1
+1
+1
+1
+int[] 6
+3
+4
+5
+6
+7
+8
+int 0
+1
+10 2014.05.08
+17 TopCoder SRM #539
+0
+22 topcoder.Over9000Rocks
+0
+3 64M
