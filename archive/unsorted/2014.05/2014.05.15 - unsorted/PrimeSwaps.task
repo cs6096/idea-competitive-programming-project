@@ -1,0 +1,36 @@
+10 PrimeSwaps
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+9 4
+4 2 3 1
+-1
+1
+1
+19 9
+9 8 7 6 1 2 3 4 5
+-1
+1
+2
+17 8
+1 7 6 2 3 8 4 5
+-1
+1
+14 src/codeforces
+16 -Xmx256m -Xss64m
+4 Main
+21 codeforces.PrimeSwaps
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.15
+0 
+1
+22 library.io.InputReader
+23 library.io.OutputWriter
+0
+0

@@ -20,4 +20,7 @@ public class BitZ {
 	public static String binString64(long n1){
 		return String.format("%64s", Long.toBinaryString(n1)).replace(' ', '0');
 	}
+	public static String binString(long n1, int len){
+		return String.format("%"+len + "s", Long.toBinaryString(n1)).replace(' ', '0');
+	}
 }

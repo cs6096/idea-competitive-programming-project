@@ -27,4 +27,28 @@ public class StringZ {
 		}
 		return fin;
 	}
+
+	public static int[] z(char[] l1){
+		int[] fin = new int[l1.length];
+		int front = 0;
+		for (int i = 0 ; i < l1.length; i++){
+			for (;;){
+				if (i + fin[i] >= fin.length) break;
+				if (l1[fin[i]] == l1[i + fin[i]]){
+					fin[i]++;
+				}
+				else break;
+			}
+			front = Math.max( front, i );
+			for (;;){
+				if (front >= fin.length) break;
+				int shift = front - i;
+				if (shift > i) break;
+				if (shift >= fin[i]) break;
+				fin[front] = Math.max( fin[front], Math.min(fin[shift], fin[i] - shift) );
+				front++;
+			}
+		}
+		return fin;
+	}
 }
