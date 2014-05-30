@@ -1,6 +1,2 @@
-33 src/topcoder/TreesAnalysis.tctask
-4
-1
-2
-3
-4
+36 src/codeforces/PashaAndHamsters.task
+0

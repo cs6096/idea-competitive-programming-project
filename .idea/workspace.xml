@@ -54,15 +54,26 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="TOPCODER" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="PashaAndHamsters.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/codeforces/PashaAndHamsters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.34236804" vertical-offset="0" max-vertical-offset="701">
+              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -72,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/topcoder/TomekPhone.java" />
         <option value="$PROJECT_DIR$/src/topcoder/HyperKnight.java" />
         <option value="$PROJECT_DIR$/src/topcoder/FoxAndMountainEasy.java" />
         <option value="$PROJECT_DIR$/src/topcoder/TaskA.java" />
@@ -123,14 +133,14 @@
         <option value="$PROJECT_DIR$/src/topcoder/RadioRange.java" />
         <option value="$PROJECT_DIR$/src/library/datastructures/FenwickTree.java" />
         <option value="$PROJECT_DIR$/src/topcoder/TreesAnalysis.java" />
+        <option value="$PROJECT_DIR$/src/codeforces/PashaAndHamsters.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1611" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -222,7 +232,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,12 +244,14 @@
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CHelper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+              <option name="myItemId" value="TOPCODER" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chelper.jar" />
+              <option name="myItemId" value="idea-competitive-programming-project" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,27 +261,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TOPCODER" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TOPCODER" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TOPCODER" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TOPCODER" />
+              <option name="myItemId" value="idea-competitive-programming-project" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -283,7 +275,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TOPCODER" />
+              <option name="myItemId" value="idea-competitive-programming-project" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -291,53 +283,13 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TOPCODER" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TOPCODER" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TOPCODER" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TOPCODER" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
+              <option name="myItemId" value="codeforces" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,7 +330,7 @@
       <recent name="D:\IDEA_WORKSPACE\TOPCODER\src\topcoder" />
     </key>
   </component>
-  <component name="RunManager" selected="TopCoder Task.TreesAnalysis">
+  <component name="RunManager" selected="Task.PashaAndHamsters">
     <configuration default="false" name="NumberTheoryUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="library.NumberTheoryUtil" />
       <option name="VM_PARAMETERS" />
@@ -450,6 +402,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -475,19 +440,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -548,75 +500,21 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testing.MainTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TOPCODER" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RectangleAndSquare" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/RectangleAndSquare.task</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="YetAnotherTaskWithQueens" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/YetAnotherTaskWithQueens.task</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="WolvesAndSheep" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MyLongCake" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PieOrDolphin" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MaxMinTreeGame" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TypoCoderDiv1" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FarStrings" type="TopCoderTask" factoryName="TopCoder Task">
+    <configuration default="false" name="A - Charging Chaos" type="Task" factoryName="Task">
       <taskConf />
       <method />
     </configuration>
-    <configuration default="false" name="Family" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf />
+    <configuration default="false" name="A - Police Recruits" type="Task" factoryName="Task">
+      <taskConf>src/codeforces/_244_2/A - Police Recruits.task</taskConf>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="LongWordsDiv1" type="TopCoderTask" factoryName="TopCoder Task">
+    <configuration default="false" name="A - Sereja and Swaps" type="Task" factoryName="Task">
+      <taskConf />
+      <method />
+    </configuration>
+    <configuration default="false" name="AlmostArithmeticalProgression" type="Task" factoryName="Task">
       <taskConf />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -628,31 +526,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="AlmostArithmeticalProgression" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/AlmostArithmeticalProgression.task</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unique" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FizzBuzzTurbo" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RedPaint" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="LongLongTripDiv1" type="TopCoderTask" factoryName="TopCoder Task">
+    <configuration default="false" name="AlmostPalindromes" type="Task" factoryName="Task">
       <taskConf />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -664,110 +538,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TaroFriends" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf />
-      <method />
-    </configuration>
-    <configuration default="false" name="RandomGCD" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf />
+    <configuration default="false" name="AntsMeet" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/AntsMeet.tctask</taskConf>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DigitalClock" type="Task" factoryName="Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Rating" type="Task" factoryName="Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CodesAndCiphers" type="Task" factoryName="Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="AlmostPalindromes" type="Task" factoryName="Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DrawingChristmasTree" type="Task" factoryName="Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TextDecompression" type="Task" factoryName="Task">
-      <taskConf />
-      <method />
-    </configuration>
-    <configuration default="false" name="A - Charging Chaos" type="Task" factoryName="Task">
-      <taskConf />
       <method />
     </configuration>
     <configuration default="false" name="B - Full Binary Tree" type="Task" factoryName="Task">
       <taskConf />
-      <method />
-    </configuration>
-    <configuration default="false" name="C - Proper Shuffle" type="Task" factoryName="Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MayTheBestPetWin" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="LittleElephantAndPermutationDiv1" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SerejaAndTable" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/SerejaAndTable.task</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Beaver" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/Beaver.task</taskConf>
-      <method />
-    </configuration>
-    <configuration default="false" name="A - Sereja and Swaps" type="Task" factoryName="Task">
-      <taskConf />
-      <method />
-    </configuration>
-    <configuration default="false" name="B - Sereja and Table" type="Task" factoryName="Task">
-      <taskConf />
-      <method />
-    </configuration>
-    <configuration default="false" name="C - Sereja and Two Sequences" type="Task" factoryName="Task">
-      <taskConf />
-      <method />
-    </configuration>
-    <configuration default="false" name="D - Sereja and Squares" type="Task" factoryName="Task">
-      <taskConf />
-      <method />
-    </configuration>
-    <configuration default="false" name="E - Sereja and Sets" type="Task" factoryName="Task">
-      <taskConf />
-      <method />
-    </configuration>
-    <configuration default="false" name="A - Police Recruits" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/_244_2/A - Police Recruits.task</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="false" name="B - Prison Transfer" type="Task" factoryName="Task">
@@ -776,118 +554,54 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="B - Sereja and Table" type="Task" factoryName="Task">
+      <taskConf />
+      <method />
+    </configuration>
+    <configuration default="false" name="BinaryCards" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/BinaryCards.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="C - Checkposts" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/_244_2/C - Checkposts.task</taskConf>
+      <taskConf />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="D - Match &amp;amp; Catch" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/_244_2/D - Match &amp;amp; Catch.task</taskConf>
+    <configuration default="false" name="C - Guess the Tree" type="Task" factoryName="Task">
+      <taskConf>src/codeforces/_245_1/C - Guess the Tree.task</taskConf>
+      <method />
+    </configuration>
+    <configuration default="false" name="C - Proper Shuffle" type="Task" factoryName="Task">
+      <taskConf />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="E - Police Patrol" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/_244_2/E - Police Patrol.task</taskConf>
-      <method />
-    </configuration>
-    <configuration default="false" name="MonstersValley" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/MonstersValley.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="KnightCircuit2" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/KnightCircuit2.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FoxAndHandle" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/FoxAndHandle.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PastingPaintingDivOne" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/PastingPaintingDivOne.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ICPCBalloons" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/ICPCBalloons.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TomekPhone" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/TomekPhone.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="HyperKnight" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/HyperKnight.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FoxAndMountainEasy" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/FoxAndMountainEasy.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+    <configuration default="false" name="C - Sereja and Two Sequences" type="Task" factoryName="Task">
+      <taskConf />
       <method />
     </configuration>
     <configuration default="false" name="C - The Bored Traveling Salesman" type="Task" factoryName="Task">
       <taskConf />
       <method />
     </configuration>
-    <configuration default="false" name="A - The Repeater" type="Task" factoryName="Task">
-      <taskConf>src/gcj/_2014_1B/A - The Repeater.task</taskConf>
+    <configuration default="false" name="CandidatesSelection" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/CandidatesSelection.tctask</taskConf>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="B - New Lottery Game" type="Task" factoryName="Task">
-      <taskConf>src/gcj/_2014_1B/B - New Lottery Game.task</taskConf>
+    <configuration default="false" name="CasketOfStar" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/CasketOfStar.tctask</taskConf>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="XorTravelingSalesman" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/XorTravelingSalesman.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CuttingBitString" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/CuttingBitString.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TheBrickTowerEasyDivOne" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/TheBrickTowerEasyDivOne.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Suminator" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/Suminator.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FoxPaintingBalls" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/FoxPaintingBalls.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MissingParentheses" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/MissingParentheses.tctask</taskConf>
+    <configuration default="false" name="CodesAndCiphers" type="Task" factoryName="Task">
+      <taskConf />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -904,154 +618,48 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RotatingBot" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/RotatingBot.tctask</taskConf>
+    <configuration default="false" name="CuttingBitString" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/CuttingBitString.tctask</taskConf>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="SplitStoneGame" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/SplitStoneGame.tctask</taskConf>
+    <configuration default="false" name="D - Match &amp;amp; Catch" type="Task" factoryName="Task">
+      <taskConf>src/codeforces/_244_2/D - Match &amp;amp; Catch.task</taskConf>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="GoodCompanyDivOne" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/GoodCompanyDivOne.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PointyWizardHats" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/PointyWizardHats.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="KingdomAndTrees" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/KingdomAndTrees.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Pillars" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/Pillars.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="KleofasTail" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/KleofasTail.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="StrIIRec" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/StrIIRec.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ElectionFraudDiv1" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/ElectionFraudDiv1.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="EllysXors" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/EllysXors.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PatrolRoute" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/PatrolRoute.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="AntsMeet" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/AntsMeet.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ImportantSequence" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/ImportantSequence.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Over9000Rocks" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/Over9000Rocks.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BinaryCards" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/BinaryCards.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PairGame" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/PairGame.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CandidatesSelection" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/CandidatesSelection.tctask</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="A - Xor-tree" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/_245_1/A - Xor-tree.task</taskConf>
-      <method />
-    </configuration>
-    <configuration default="false" name="B - Working out" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/_245_1/B - Working out.task</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="C - Guess the Tree" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/_245_1/C - Guess the Tree.task</taskConf>
+    <configuration default="false" name="D - Sereja and Squares" type="Task" factoryName="Task">
+      <taskConf />
       <method />
     </configuration>
     <configuration default="false" name="D - Tricky Function" type="Task" factoryName="Task">
       <taskConf>src/codeforces/_245_1/D - Tricky Function.task</taskConf>
       <method />
     </configuration>
-    <configuration default="false" name="E - Points and Segments" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/_245_1/E - Points and Segments.task</taskConf>
-      <method />
-    </configuration>
-    <configuration default="false" name="KingXNewCurrency" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/KingXNewCurrency.tctask</taskConf>
+    <configuration default="false" name="DigitalClock" type="Task" factoryName="Task">
+      <taskConf />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="MergersDivOne" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/MergersDivOne.tctask</taskConf>
+    <configuration default="false" name="DrawingChristmasTree" type="Task" factoryName="Task">
+      <taskConf />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PrimeSwaps" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/PrimeSwaps.task</taskConf>
+    <configuration default="false" name="E - Police Patrol" type="Task" factoryName="Task">
+      <taskConf>src/codeforces/_244_2/E - Police Patrol.task</taskConf>
       <method />
     </configuration>
-    <configuration default="false" name="PrefixesAndSuffixes" type="Task" factoryName="Task">
-      <taskConf>src/codeforces/PrefixesAndSuffixes.task</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+    <configuration default="false" name="E - Sereja and Sets" type="Task" factoryName="Task">
+      <taskConf />
       <method />
     </configuration>
-    <configuration default="false" name="FoxAndGCDLCM" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/FoxAndGCDLCM.tctask</taskConf>
+    <configuration default="false" name="ElectionFraudDiv1" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/ElectionFraudDiv1.tctask</taskConf>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -1062,14 +670,192 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CasketOfStar" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/CasketOfStar.tctask</taskConf>
+    <configuration default="false" name="EllysXors" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/EllysXors.tctask</taskConf>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="SixteenBricks" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>src/topcoder/SixteenBricks.tctask</taskConf>
+    <configuration default="false" name="Family" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FarStrings" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <method />
+    </configuration>
+    <configuration default="false" name="FizzBuzzTurbo" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FoxAndGCDLCM" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/FoxAndGCDLCM.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FoxAndHandle" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/FoxAndHandle.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FoxAndMountainEasy" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/FoxAndMountainEasy.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FoxPaintingBalls" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/FoxPaintingBalls.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GoodCompanyDivOne" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/GoodCompanyDivOne.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HyperKnight" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/HyperKnight.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ICPCBalloons" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/ICPCBalloons.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ImportantSequence" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/ImportantSequence.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="KingXNewCurrency" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/KingXNewCurrency.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="KingdomAndTrees" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/KingdomAndTrees.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="KleofasTail" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/KleofasTail.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="KnightCircuit2" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/KnightCircuit2.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LittleElephantAndPermutationDiv1" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LongLongTripDiv1" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LongWordsDiv1" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MaxMinTreeGame" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MayTheBestPetWin" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MergersDivOne" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/MergersDivOne.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MissingParentheses" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/MissingParentheses.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MonstersValley" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/MonstersValley.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyLongCake" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Over9000Rocks" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/Over9000Rocks.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PairGame" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/PairGame.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PastingPaintingDivOne" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/PastingPaintingDivOne.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PatrolRoute" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/PatrolRoute.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PieOrDolphin" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pillars" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/Pillars.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PointyWizardHats" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/PointyWizardHats.tctask</taskConf>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -1080,109 +866,234 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="RandomGCD" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Rating" type="Task" factoryName="Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RectangleAndSquare" type="Task" factoryName="Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RedPaint" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RotatingBot" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/RotatingBot.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SerejaAndTable" type="Task" factoryName="Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SixteenBricks" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/SixteenBricks.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SplitStoneGame" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/SplitStoneGame.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StrIIRec" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/StrIIRec.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Suminator" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/Suminator.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaroFriends" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <method />
+    </configuration>
+    <configuration default="false" name="TextDecompression" type="Task" factoryName="Task">
+      <taskConf />
+      <method />
+    </configuration>
+    <configuration default="false" name="TheBrickTowerEasyDivOne" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/TheBrickTowerEasyDivOne.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TomekPhone" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/TomekPhone.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="TreesAnalysis" type="TopCoderTask" factoryName="TopCoder Task">
       <taskConf>src/topcoder/TreesAnalysis.tctask</taskConf>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="96">
-      <item index="0" class="java.lang.String" itemvalue="Application.MainTest" />
-      <item index="1" class="java.lang.String" itemvalue="Task.RectangleAndSquare" />
-      <item index="2" class="java.lang.String" itemvalue="Task.YetAnotherTaskWithQueens" />
-      <item index="3" class="java.lang.String" itemvalue="TopCoder Task.WolvesAndSheep" />
-      <item index="4" class="java.lang.String" itemvalue="TopCoder Task.MyLongCake" />
-      <item index="5" class="java.lang.String" itemvalue="TopCoder Task.PieOrDolphin" />
-      <item index="6" class="java.lang.String" itemvalue="TopCoder Task.MaxMinTreeGame" />
-      <item index="7" class="java.lang.String" itemvalue="TopCoder Task.TypoCoderDiv1" />
-      <item index="8" class="java.lang.String" itemvalue="TopCoder Task.FarStrings" />
-      <item index="9" class="java.lang.String" itemvalue="TopCoder Task.Family" />
-      <item index="10" class="java.lang.String" itemvalue="TopCoder Task.LongWordsDiv1" />
-      <item index="11" class="java.lang.String" itemvalue="Task.AlmostAritmeticalProgression" />
-      <item index="12" class="java.lang.String" itemvalue="Task.AlmostArithmeticalProgression" />
-      <item index="13" class="java.lang.String" itemvalue="TopCoder Task.Unique" />
-      <item index="14" class="java.lang.String" itemvalue="TopCoder Task.FizzBuzzTurbo" />
-      <item index="15" class="java.lang.String" itemvalue="TopCoder Task.RedPaint" />
-      <item index="16" class="java.lang.String" itemvalue="TopCoder Task.LongLongTripDiv1" />
-      <item index="17" class="java.lang.String" itemvalue="TopCoder Task.AmebaDiv1" />
-      <item index="18" class="java.lang.String" itemvalue="TopCoder Task.TaroFriends" />
-      <item index="19" class="java.lang.String" itemvalue="TopCoder Task.RandomGCD" />
-      <item index="20" class="java.lang.String" itemvalue="Task.DigitalClock" />
-      <item index="21" class="java.lang.String" itemvalue="Task.Rating" />
-      <item index="22" class="java.lang.String" itemvalue="Task.CodesAndCiphers" />
-      <item index="23" class="java.lang.String" itemvalue="Task.AlmostPalindromes" />
-      <item index="24" class="java.lang.String" itemvalue="Task.DrawingChristmasTree" />
-      <item index="25" class="java.lang.String" itemvalue="Task.TextDecompression" />
-      <item index="26" class="java.lang.String" itemvalue="Task.A - Charging Chaos" />
-      <item index="27" class="java.lang.String" itemvalue="Task.B - Full Binary Tree" />
-      <item index="28" class="java.lang.String" itemvalue="Task.C - Proper Shuffle" />
-      <item index="29" class="java.lang.String" itemvalue="TopCoder Task.MayTheBestPetWin" />
-      <item index="30" class="java.lang.String" itemvalue="TopCoder Task.LittleElephantAndPermutationDiv1" />
-      <item index="31" class="java.lang.String" itemvalue="Task.SerejaAndTable" />
-      <item index="32" class="java.lang.String" itemvalue="Task.Beaver" />
-      <item index="33" class="java.lang.String" itemvalue="Task.A - Sereja and Swaps" />
-      <item index="34" class="java.lang.String" itemvalue="Task.B - Sereja and Table" />
-      <item index="35" class="java.lang.String" itemvalue="Task.C - Sereja and Two Sequences" />
-      <item index="36" class="java.lang.String" itemvalue="Task.D - Sereja and Squares" />
-      <item index="37" class="java.lang.String" itemvalue="Task.E - Sereja and Sets" />
-      <item index="38" class="java.lang.String" itemvalue="Task.A - Police Recruits" />
-      <item index="39" class="java.lang.String" itemvalue="Task.B - Prison Transfer" />
-      <item index="40" class="java.lang.String" itemvalue="Task.C - Checkposts" />
-      <item index="41" class="java.lang.String" itemvalue="Task.D - Match &amp;amp; Catch" />
-      <item index="42" class="java.lang.String" itemvalue="Task.E - Police Patrol" />
-      <item index="43" class="java.lang.String" itemvalue="TopCoder Task.MonstersValley" />
-      <item index="44" class="java.lang.String" itemvalue="TopCoder Task.KnightCircuit2" />
-      <item index="45" class="java.lang.String" itemvalue="TopCoder Task.FoxAndHandle" />
-      <item index="46" class="java.lang.String" itemvalue="TopCoder Task.PastingPaintingDivOne" />
-      <item index="47" class="java.lang.String" itemvalue="TopCoder Task.ICPCBalloons" />
-      <item index="48" class="java.lang.String" itemvalue="TopCoder Task.TomekPhone" />
-      <item index="49" class="java.lang.String" itemvalue="TopCoder Task.HyperKnight" />
-      <item index="50" class="java.lang.String" itemvalue="TopCoder Task.FoxAndMountainEasy" />
-      <item index="51" class="java.lang.String" itemvalue="Task.C - The Bored Traveling Salesman" />
-      <item index="52" class="java.lang.String" itemvalue="Task.A - The Repeater" />
-      <item index="53" class="java.lang.String" itemvalue="Task.B - New Lottery Game" />
-      <item index="54" class="java.lang.String" itemvalue="TopCoder Task.XorTravelingSalesman" />
-      <item index="55" class="java.lang.String" itemvalue="TopCoder Task.CuttingBitString" />
-      <item index="56" class="java.lang.String" itemvalue="TopCoder Task.TheBrickTowerEasyDivOne" />
-      <item index="57" class="java.lang.String" itemvalue="TopCoder Task.Suminator" />
-      <item index="58" class="java.lang.String" itemvalue="TopCoder Task.FoxPaintingBalls" />
-      <item index="59" class="java.lang.String" itemvalue="TopCoder Task.MissingParentheses" />
-      <item index="60" class="java.lang.String" itemvalue="TopCoder Task.ColorfulChocolates" />
-      <item index="61" class="java.lang.String" itemvalue="TopCoder Task.ColorfulWolves" />
-      <item index="62" class="java.lang.String" itemvalue="TopCoder Task.RotatingBot" />
-      <item index="63" class="java.lang.String" itemvalue="TopCoder Task.SplitStoneGame" />
-      <item index="64" class="java.lang.String" itemvalue="TopCoder Task.GoodCompanyDivOne" />
-      <item index="65" class="java.lang.String" itemvalue="TopCoder Task.PointyWizardHats" />
-      <item index="66" class="java.lang.String" itemvalue="TopCoder Task.KingdomAndTrees" />
-      <item index="67" class="java.lang.String" itemvalue="TopCoder Task.Pillars" />
-      <item index="68" class="java.lang.String" itemvalue="TopCoder Task.KleofasTail" />
-      <item index="69" class="java.lang.String" itemvalue="TopCoder Task.StrIIRec" />
-      <item index="70" class="java.lang.String" itemvalue="TopCoder Task.ElectionFraudDiv1" />
-      <item index="71" class="java.lang.String" itemvalue="TopCoder Task.EllysXors" />
-      <item index="72" class="java.lang.String" itemvalue="TopCoder Task.PatrolRoute" />
-      <item index="73" class="java.lang.String" itemvalue="TopCoder Task.AntsMeet" />
-      <item index="74" class="java.lang.String" itemvalue="TopCoder Task.ImportantSequence" />
-      <item index="75" class="java.lang.String" itemvalue="TopCoder Task.Over9000Rocks" />
-      <item index="76" class="java.lang.String" itemvalue="TopCoder Task.BinaryCards" />
-      <item index="77" class="java.lang.String" itemvalue="TopCoder Task.PairGame" />
-      <item index="78" class="java.lang.String" itemvalue="TopCoder Task.CandidatesSelection" />
-      <item index="79" class="java.lang.String" itemvalue="Task.A - Xor-tree" />
-      <item index="80" class="java.lang.String" itemvalue="Task.B - Working out" />
-      <item index="81" class="java.lang.String" itemvalue="Task.C - Guess the Tree" />
-      <item index="82" class="java.lang.String" itemvalue="Task.D - Tricky Function" />
-      <item index="83" class="java.lang.String" itemvalue="Task.E - Points and Segments" />
-      <item index="84" class="java.lang.String" itemvalue="TopCoder Task.KingXNewCurrency" />
-      <item index="85" class="java.lang.String" itemvalue="TopCoder Task.MergersDivOne" />
-      <item index="86" class="java.lang.String" itemvalue="Task.PrimeSwaps" />
-      <item index="87" class="java.lang.String" itemvalue="Task.PrefixesAndSuffixes" />
-      <item index="88" class="java.lang.String" itemvalue="TopCoder Task.FoxAndGCDLCM" />
-      <item index="89" class="java.lang.String" itemvalue="TopCoder Task.EllysCheckers" />
-      <item index="90" class="java.lang.String" itemvalue="TopCoder Task.CasketOfStar" />
-      <item index="91" class="java.lang.String" itemvalue="TopCoder Task.SixteenBricks" />
-      <item index="92" class="java.lang.String" itemvalue="TopCoder Task.RadioRange" />
-      <item index="93" class="java.lang.String" itemvalue="TopCoder Task.TreesAnalysis" />
-      <item index="94" class="java.lang.String" itemvalue="Application.NumberTheoryUtil" />
-      <item index="95" class="java.lang.String" itemvalue="Application.Main" />
+    <configuration default="false" name="TypoCoderDiv1" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unique" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="WolvesAndSheep" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="XorTravelingSalesman" type="TopCoderTask" factoryName="TopCoder Task">
+      <taskConf>src/topcoder/XorTravelingSalesman.tctask</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="YetAnotherTaskWithQueens" type="Task" factoryName="Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MainTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing.MainTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TOPCODER" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PashaAndHamsters" type="Task" factoryName="Task">
+      <taskConf>src/codeforces/PashaAndHamsters.task</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="89">
+      <item index="0" class="java.lang.String" itemvalue="Task.A - Charging Chaos" />
+      <item index="1" class="java.lang.String" itemvalue="Task.A - Police Recruits" />
+      <item index="2" class="java.lang.String" itemvalue="Task.A - Sereja and Swaps" />
+      <item index="3" class="java.lang.String" itemvalue="Task.AlmostArithmeticalProgression" />
+      <item index="4" class="java.lang.String" itemvalue="Task.AlmostAritmeticalProgression" />
+      <item index="5" class="java.lang.String" itemvalue="Task.AlmostPalindromes" />
+      <item index="6" class="java.lang.String" itemvalue="TopCoder Task.AmebaDiv1" />
+      <item index="7" class="java.lang.String" itemvalue="TopCoder Task.AntsMeet" />
+      <item index="8" class="java.lang.String" itemvalue="Task.B - Full Binary Tree" />
+      <item index="9" class="java.lang.String" itemvalue="Task.B - Prison Transfer" />
+      <item index="10" class="java.lang.String" itemvalue="Task.B - Sereja and Table" />
+      <item index="11" class="java.lang.String" itemvalue="TopCoder Task.BinaryCards" />
+      <item index="12" class="java.lang.String" itemvalue="Task.C - Checkposts" />
+      <item index="13" class="java.lang.String" itemvalue="Task.C - Guess the Tree" />
+      <item index="14" class="java.lang.String" itemvalue="Task.C - Proper Shuffle" />
+      <item index="15" class="java.lang.String" itemvalue="Task.C - Sereja and Two Sequences" />
+      <item index="16" class="java.lang.String" itemvalue="Task.C - The Bored Traveling Salesman" />
+      <item index="17" class="java.lang.String" itemvalue="TopCoder Task.CandidatesSelection" />
+      <item index="18" class="java.lang.String" itemvalue="TopCoder Task.CasketOfStar" />
+      <item index="19" class="java.lang.String" itemvalue="Task.CodesAndCiphers" />
+      <item index="20" class="java.lang.String" itemvalue="TopCoder Task.ColorfulChocolates" />
+      <item index="21" class="java.lang.String" itemvalue="TopCoder Task.ColorfulWolves" />
+      <item index="22" class="java.lang.String" itemvalue="TopCoder Task.CuttingBitString" />
+      <item index="23" class="java.lang.String" itemvalue="Task.D - Match &amp;amp; Catch" />
+      <item index="24" class="java.lang.String" itemvalue="Task.D - Sereja and Squares" />
+      <item index="25" class="java.lang.String" itemvalue="Task.D - Tricky Function" />
+      <item index="26" class="java.lang.String" itemvalue="Task.DigitalClock" />
+      <item index="27" class="java.lang.String" itemvalue="Task.DrawingChristmasTree" />
+      <item index="28" class="java.lang.String" itemvalue="Task.E - Police Patrol" />
+      <item index="29" class="java.lang.String" itemvalue="Task.E - Sereja and Sets" />
+      <item index="30" class="java.lang.String" itemvalue="TopCoder Task.ElectionFraudDiv1" />
+      <item index="31" class="java.lang.String" itemvalue="TopCoder Task.EllysCheckers" />
+      <item index="32" class="java.lang.String" itemvalue="TopCoder Task.EllysXors" />
+      <item index="33" class="java.lang.String" itemvalue="TopCoder Task.Family" />
+      <item index="34" class="java.lang.String" itemvalue="TopCoder Task.FarStrings" />
+      <item index="35" class="java.lang.String" itemvalue="TopCoder Task.FizzBuzzTurbo" />
+      <item index="36" class="java.lang.String" itemvalue="TopCoder Task.FoxAndGCDLCM" />
+      <item index="37" class="java.lang.String" itemvalue="TopCoder Task.FoxAndHandle" />
+      <item index="38" class="java.lang.String" itemvalue="TopCoder Task.FoxAndMountainEasy" />
+      <item index="39" class="java.lang.String" itemvalue="TopCoder Task.FoxPaintingBalls" />
+      <item index="40" class="java.lang.String" itemvalue="TopCoder Task.GoodCompanyDivOne" />
+      <item index="41" class="java.lang.String" itemvalue="TopCoder Task.HyperKnight" />
+      <item index="42" class="java.lang.String" itemvalue="TopCoder Task.ICPCBalloons" />
+      <item index="43" class="java.lang.String" itemvalue="TopCoder Task.ImportantSequence" />
+      <item index="44" class="java.lang.String" itemvalue="TopCoder Task.KingXNewCurrency" />
+      <item index="45" class="java.lang.String" itemvalue="TopCoder Task.KingdomAndTrees" />
+      <item index="46" class="java.lang.String" itemvalue="TopCoder Task.KleofasTail" />
+      <item index="47" class="java.lang.String" itemvalue="TopCoder Task.KnightCircuit2" />
+      <item index="48" class="java.lang.String" itemvalue="TopCoder Task.LittleElephantAndPermutationDiv1" />
+      <item index="49" class="java.lang.String" itemvalue="TopCoder Task.LongLongTripDiv1" />
+      <item index="50" class="java.lang.String" itemvalue="TopCoder Task.LongWordsDiv1" />
+      <item index="51" class="java.lang.String" itemvalue="TopCoder Task.MaxMinTreeGame" />
+      <item index="52" class="java.lang.String" itemvalue="TopCoder Task.MayTheBestPetWin" />
+      <item index="53" class="java.lang.String" itemvalue="TopCoder Task.MergersDivOne" />
+      <item index="54" class="java.lang.String" itemvalue="TopCoder Task.MissingParentheses" />
+      <item index="55" class="java.lang.String" itemvalue="TopCoder Task.MonstersValley" />
+      <item index="56" class="java.lang.String" itemvalue="TopCoder Task.MyLongCake" />
+      <item index="57" class="java.lang.String" itemvalue="TopCoder Task.Over9000Rocks" />
+      <item index="58" class="java.lang.String" itemvalue="TopCoder Task.PairGame" />
+      <item index="59" class="java.lang.String" itemvalue="TopCoder Task.PastingPaintingDivOne" />
+      <item index="60" class="java.lang.String" itemvalue="TopCoder Task.PatrolRoute" />
+      <item index="61" class="java.lang.String" itemvalue="TopCoder Task.PieOrDolphin" />
+      <item index="62" class="java.lang.String" itemvalue="TopCoder Task.Pillars" />
+      <item index="63" class="java.lang.String" itemvalue="TopCoder Task.PointyWizardHats" />
+      <item index="64" class="java.lang.String" itemvalue="TopCoder Task.RadioRange" />
+      <item index="65" class="java.lang.String" itemvalue="TopCoder Task.RandomGCD" />
+      <item index="66" class="java.lang.String" itemvalue="Task.Rating" />
+      <item index="67" class="java.lang.String" itemvalue="Task.RectangleAndSquare" />
+      <item index="68" class="java.lang.String" itemvalue="TopCoder Task.RedPaint" />
+      <item index="69" class="java.lang.String" itemvalue="TopCoder Task.RotatingBot" />
+      <item index="70" class="java.lang.String" itemvalue="Task.SerejaAndTable" />
+      <item index="71" class="java.lang.String" itemvalue="TopCoder Task.SixteenBricks" />
+      <item index="72" class="java.lang.String" itemvalue="TopCoder Task.SplitStoneGame" />
+      <item index="73" class="java.lang.String" itemvalue="TopCoder Task.StrIIRec" />
+      <item index="74" class="java.lang.String" itemvalue="TopCoder Task.Suminator" />
+      <item index="75" class="java.lang.String" itemvalue="TopCoder Task.TaroFriends" />
+      <item index="76" class="java.lang.String" itemvalue="Task.TextDecompression" />
+      <item index="77" class="java.lang.String" itemvalue="TopCoder Task.TheBrickTowerEasyDivOne" />
+      <item index="78" class="java.lang.String" itemvalue="TopCoder Task.TomekPhone" />
+      <item index="79" class="java.lang.String" itemvalue="TopCoder Task.TreesAnalysis" />
+      <item index="80" class="java.lang.String" itemvalue="TopCoder Task.TypoCoderDiv1" />
+      <item index="81" class="java.lang.String" itemvalue="TopCoder Task.Unique" />
+      <item index="82" class="java.lang.String" itemvalue="TopCoder Task.WolvesAndSheep" />
+      <item index="83" class="java.lang.String" itemvalue="TopCoder Task.XorTravelingSalesman" />
+      <item index="84" class="java.lang.String" itemvalue="Task.YetAnotherTaskWithQueens" />
+      <item index="85" class="java.lang.String" itemvalue="Application.MainTest" />
+      <item index="86" class="java.lang.String" itemvalue="Application.NumberTheoryUtil" />
+      <item index="87" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="88" class="java.lang.String" itemvalue="Task.PashaAndHamsters" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -1228,7 +1139,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="0" width="1611" height="860" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1241,18 +1152,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5835655" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3149931" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19191271" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9233983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19184953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9229711" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3259053" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.316156" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1351,13 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <caret line="17" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_40/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6442" max-vertical-offset="19635">
-          <caret line="410" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1487,27 +1391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/topcoder/BinaryCards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topcoder/PairGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="816">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topcoder/CandidatesSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2947977" vertical-offset="867" max-vertical-offset="1615">
-          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/codeforces/_245_1/TaskB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9089595" vertical-offset="0" max-vertical-offset="1071">
@@ -1526,27 +1409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="692">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topcoder/MergersDivOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3684971" vertical-offset="0" max-vertical-offset="692">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codeforces/PrimeSwaps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codeforces/PrefixesAndSuffixes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5811594" vertical-offset="330" max-vertical-offset="1224">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1571,34 +1433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/topcoder/KingXNewCurrency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topcoder/FoxAndGCDLCM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topcoder/EllysCheckers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topcoder/CasketOfStar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4188406" vertical-offset="0" max-vertical-offset="690">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testing/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.56666666" vertical-offset="0" max-vertical-offset="690">
@@ -1613,33 +1447,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/topcoder/SixteenBricks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24637681" vertical-offset="0" max-vertical-offset="690">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topcoder/RadioRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7369942" vertical-offset="204" max-vertical-offset="969">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topcoder/TreesAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="2006">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/library/datastructures/FenwickTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.041907515" vertical-offset="73" max-vertical-offset="799">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codeforces/PashaAndHamsters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34236804" vertical-offset="0" max-vertical-offset="701">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
           <folding />
         </state>
       </provider>
